@@ -73,7 +73,7 @@ class App extends Component {
     let datas = this.state.datas;
     return (
       <div className="App">
-        <h2>{this.state.title}</h2>
+        <h2 style={{display: 'flex',  justifyContent:'center', alignItems:'center'}}>{this.state.title}</h2>
         <form ref="myForm" className="myForm">
           <input type="text" ref="name" placeholder="Article Name" className="formField" />
           <input type="text" ref="article" placeholder="Article" className="formField" />
